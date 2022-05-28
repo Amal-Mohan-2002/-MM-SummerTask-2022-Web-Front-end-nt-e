@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: #FF6363;
+}
+nav a{
+    margin: 0 2rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600 ;
+    font-size: 2rem;
+}
+
+nav a:hover{
+    color: #6ae5d4 ;
+}
+
+.container .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #2E0249;
+    visibility: hidden;
+    opacity: 0;
+}
+.container .nav-btn{
+    visibility: visible;
+    opacity: 1;
+}
+.container nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1.5rem;
+    background-color: #FF6363;
+    transition: 1s;
+    transform: translateY(-100vh);
+}
+.container .responsive_nav{
+    transform: none;
+}
+
+@media only screen and (max-width:700px){
+    .container nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1.5rem;
+    background-color: #FF6363;
+    transition: 1s;
+    transform: translateY(-100vh);
+}
+}
+.container-logo{
+    display: flex;
+    align-items: center;
+
+
+}
+.logo-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: white;
+
+}
+.logo-img{
+    height: 40px;
+}
+.container-logo{
+    display: flex;
+    align-items: center;
+    gap: 0.56rem;
+}
