@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MM-SummerTask-2022-Web-Front-end/static/css/main.3ba9ec2f.css",
+    "main.js": "/MM-SummerTask-2022-Web-Front-end/static/js/main.eaea709c.js",
+    "index.html": "/MM-SummerTask-2022-Web-Front-end/index.html",
+    "main.3ba9ec2f.css.map": "/MM-SummerTask-2022-Web-Front-end/static/css/main.3ba9ec2f.css.map",
+    "main.eaea709c.js.map": "/MM-SummerTask-2022-Web-Front-end/static/js/main.eaea709c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ba9ec2f.css",
+    "static/js/main.eaea709c.js"
+  ]
+}
