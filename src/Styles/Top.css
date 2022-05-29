@@ -1,0 +1,30 @@
+.Top-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: end;
+    text-decoration: none;
+
+
+}
+.Top-container:hover{
+    background-color: rgb(232, 232, 232);
+    box-shadow: 0 2px 0 #E8744F;
+}
+
+.Top-img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.Top-text{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+    color: black;
+    
+}

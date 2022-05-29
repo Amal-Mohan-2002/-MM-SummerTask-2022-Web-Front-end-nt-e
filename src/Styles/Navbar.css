@@ -5,6 +5,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
 .container{
     display: flex;
     align-items: center;
@@ -12,6 +13,10 @@
     height: 80px;
     padding: 0 2rem;
     background-color: #FF6363;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 2px 0 #393E46;
 }
 nav a{
     margin: 0 2rem;
