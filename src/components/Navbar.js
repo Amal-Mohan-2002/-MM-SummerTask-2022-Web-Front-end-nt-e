@@ -5,7 +5,8 @@ import "../Styles/Navbar.css";
 import { Button } from '@mui/material';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-
+import {Route, BrowserRouter as Router, Routes, Link} from "react-router-dom"
+import SignIn from "./SignIn.js"
 
 export default function Navbar(){
     const navRef= useRef();
@@ -15,13 +16,16 @@ export default function Navbar(){
     return(
         <div className="container">
             <nav ref={navRef}>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-                <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-                    <FaTimes/>
-                </button>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                    
+                    <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+                        <FaTimes/>
+                    </button>
             </nav>
+            
+            
             <button className="nav-btn nav-open-btn" onClick={showNavbar}>
                 <FaBars/>
             </button>
@@ -32,6 +36,7 @@ export default function Navbar(){
             <div>
                 <div className="nav-right">
                     <Button variant="outlined">Sign In</Button>
+                    
                 </div>
                 <div>
                     {/* <TextField id="outlined-search" label="Search field" type="search" /> */}

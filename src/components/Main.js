@@ -35,7 +35,7 @@ export default function Main(){
                 {lcards}
             </div>
             <div className="right">
-                
+                <Cat/>
             </div>
         </main>
     )

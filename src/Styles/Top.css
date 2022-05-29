@@ -7,6 +7,7 @@
     margin-top: 20px;
     text-align: end;
     text-decoration: none;
+    
 
 
 }
@@ -27,4 +28,7 @@
     text-align: left;
     color: black;
     
+}
+.like{
+    width: 20px;
 }
