@@ -13,9 +13,9 @@
     height: 80px;
     padding: 0 2rem;
     background-color: #FF6363;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
-    top: 0;
+    /* top: 0; */
     box-shadow: 0 2px 0 #393E46;
 }
 nav a{
@@ -58,6 +58,8 @@ nav a:hover{
     background-color: #FF6363;
     transition: 1s;
     transform: translateY(-100vh);
+    z-index: 2;
+    box-sizing: border-box;
 }
 .container .responsive_nav{
     transform: none;
@@ -78,11 +80,13 @@ nav a:hover{
     background-color: #FF6363;
     transition: 1s;
     transform: translateY(-100vh);
+    z-index: 2;
 }
 }
 .container-logo{
     display: flex;
     align-items: center;
+    text-decoration: none;
 
 
 }
@@ -90,13 +94,18 @@ nav a:hover{
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     color: white;
+    text-decoration: none;
 
 }
 .logo-img{
     height: 40px;
+    text-decoration: none;
 }
 .container-logo{
     display: flex;
     align-items: center;
     gap: 0.56rem;
+}
+.Signin-btn{
+    text-decoration: none;
 }
