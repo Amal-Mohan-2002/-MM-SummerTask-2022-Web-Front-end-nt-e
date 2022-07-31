@@ -1,0 +1,24 @@
+.CP{
+    text-align: center;
+    background-color: white;
+    width: 40%;
+    margin:  5% auto 0 auto ;
+    border-radius: 25px;
+    padding: 1% 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+ h2{
+    margin-bottom: 15px;
+ }
+ #up{
+    margin: 0 auto 0 auto;
+}
+ .fields{
+    margin-bottom: 30px ;
+ }
+ #create-btn{
+   text-align: end;
+ }
+ 

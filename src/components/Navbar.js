@@ -10,6 +10,11 @@ import SignIn from "../pages/SignIn"
 import Home from "../pages/Home"
 import Error from "../pages/Error";
 import  App from "../App"
+import { createTheme } from '@mui/material/styles';
+import black from '@mui/material/colors/blue';
+
+
+
 
 export default function Navbar(){
     const navRef= useRef();
@@ -41,9 +46,10 @@ export default function Navbar(){
                 <div>
                     <div className="nav-right">
                         <Link className="Signin-btn" to="/signin"><Button variant="outlined">Sign In</Button></Link>
+                        <Link className="CreatePost" to="/CreatePost"><Button color="success"variant="contained">Create Article</Button></Link>
                         
                         
-                    </div>
+                    </div>                    
                     <div>
                     </div>
                 </div>

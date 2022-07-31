@@ -9,30 +9,32 @@ import Cat from "./Cat.js"
 
 
 export default function Main(){
-    const lcards= data.map((item)=>{
-        return (
-            <NewsTemp
-                item={item}
-            />
-        )
-    })
-    const lcards2= data.map((item)=>{
-        return (
-            <Top
-                item={item}
-            />
-        )
-    })
+    
+    // const lcards= data.map((item)=>{
+    //     return (
+    //         <NewsTemp
+    //             item={item}
+    //         />
+    //     )
+    // })
+    // const lcards2= data.map((item)=>{
+    //     return (
+    //         <Top
+    //             item={item}
+    //         />
+    //     )
+    // })
     return(
         <main>
             <div className="left">
                 <h3>Trending</h3>
-                {lcards2}
+                <Top/>
 
             </div>
             <div className="middle">
                 <h3>Breaking News</h3>
-                {lcards}
+                {/* {lcards} */}
+                <NewsTemp/>
             </div>
             <div className="right">
                 <Cat/>

@@ -109,3 +109,7 @@ nav a:hover{
 .Signin-btn{
     text-decoration: none;
 }
+.nav-right{
+    display: flex;
+    gap: 10px;
+}

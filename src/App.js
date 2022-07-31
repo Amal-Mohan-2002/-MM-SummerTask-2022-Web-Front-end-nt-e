@@ -5,6 +5,7 @@ import Home from "./pages/Home"
 import Error from "./pages/Error";
 import './index.css';
 import Navbar from "./components/Navbar.js"
+import CreatePost from "./pages/CreatePost";
 
 
 
@@ -17,6 +18,7 @@ export default function App(){
                     <Route path="/" element={<Home/>} />
                     <Route path="/signin" element={<SignIn/>} />
                     <Route path="*" element={<Error/>} />
+                    <Route path="/CreatePost" element={<CreatePost/>} />
 
                 </Routes>
             </Router>       
